@@ -1,0 +1,39 @@
+.social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.social--vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.social__link {
+    display: block;
+    height: 22px;
+    width: 22px;
+    text-decoration: none;
+}
+
+.social__link:hover {
+    opacity: 0.7;
+}
+
+.social__link:active {
+    opacity: 0.5;
+}
+
+.social__img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    fill: rgba(53, 58, 90, 0.3);
+}
+
+.social__img--light {
+    fill: #fdfdfd;
+  }
