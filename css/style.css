@@ -7,3 +7,14 @@
 @import "./blocks/button.css";
 @import "./blocks/offer.css";
 @import "./blocks/promo.css";
+@import "./helpers/container.css";
+@import "./blocks/statistics.css";
+@import "./blocks/teachers.css";
+@import "./blocks/about.css";
+@import "./blocks/benefit.css";
+@import './blocks/courses.css';
+@import './blocks/banner.css';
+@import './blocks/service-navigation.css';
+@import './blocks/contact.css';
+@import './blocks/page-footer.css';
+@import './blocks/page.css';

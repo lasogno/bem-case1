@@ -1,0 +1,32 @@
+.contact {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.contact__title {
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.contact__content {
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.contact__link {
+    color: inherit;
+}
+
+.contact__link--underline {
+    text-decoration: underline;
+}
+
+.contact__link:hover {
+    opacity: 0.7;
+}
+
+.contact__link:active {
+    opacity: 0.5;
+}

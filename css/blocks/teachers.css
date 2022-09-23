@@ -1,0 +1,47 @@
+.teachers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.teachers__description-column {
+    width: 500px;
+}
+
+.teachers__img-column {
+    display: grid;
+    grid-template-columns: repeat(3, 170px);
+    grid-gap: 30px;
+}
+
+.teachers__card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.teachers__img--cropping-bottom-left {
+    border-bottom-left-radius: 80px 80px;
+}
+
+.teachers__img--cropping-top-left {
+    border-top-left-radius: 80px 80px;
+}
+
+.teachers__img--cropping-bottom-right {
+    border-bottom-right-radius: 80px 80px;
+}
+
+.teachers__img--cropping-top-right {
+    border-top-right-radius: 80px 80px;
+}
+
+.teachers__caption {
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+
+}

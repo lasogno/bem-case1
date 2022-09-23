@@ -1,0 +1,16 @@
+.page {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #353a5a;
+    min-width: 1170px;
+}
+
+.page__content {
+    margin-top: -275px;
+}
+
+.page__aside {
+    margin-bottom: 120px;
+}

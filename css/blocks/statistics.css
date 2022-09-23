@@ -1,0 +1,29 @@
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0;
+}
+
+.statistics__item {
+    width: 270px;
+}
+
+.statistics__indicator {
+    margin-bottom: 15px;
+    color: #10B582;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.statistics__description {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #353A5A;
+
+    text-align: center;
+}
