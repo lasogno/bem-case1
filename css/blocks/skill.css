@@ -1,0 +1,46 @@
+.skill {
+    padding: 25px 15px;
+    background: #FDFDFD;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.skill__title {
+    padding-left: 24px;
+    margin: 0 0 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.skill--animation .skill__title {
+    background-image: url("/img/animation.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.skill--shoot .skill__title {
+    background-image: url("/img/shoot.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.skill--ae .skill__title {
+    background-image: url("/img/ae.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.skill--sound .skill__title {
+    background-image: url("/img/sound.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.skill__description {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #353a5a;
+}

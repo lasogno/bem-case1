@@ -14,3 +14,12 @@
 .page__aside {
     margin-bottom: 120px;
 }
+
+.page--inner .page__header {
+    background-color: #ffffff;
+    color: #353a5a;
+}
+
+.page--inner .page__content {
+    margin-top: 0;
+}

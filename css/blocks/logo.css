@@ -11,3 +11,8 @@
 .logo--white .logo__img {
     fill: #fdfdfd;
 }
+
+.logo--size-small {
+    width: 128px;
+    height: 16px;
+}
